@@ -1,0 +1,105 @@
+nav.navbar.navbar-expand.navbar-light.topbar.shadow-sm.mb-4
+    .container-fluid
+        // Search Bar
+        .search-bar.position-relative
+          input(type='search' placeholder='Search Products')
+          button#navsearch(type='button')
+            i.bx.bx-search
+        .flex-fill
+        // Nav Item - Alerts
+        .nav-item.dropdown.no-arrow.mx-1
+          a#alertsDropdown.dropdown-toggle.unstyled-link.text-black-50(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false')
+            i.bx.bxs-bell
+              // Counter - Alerts
+            span.badge-counter.top-0.start-100.badge.bg-danger 9+
+          .dropdown-list.dropdown-menu.dropdown-menu-end.shadow-sm.border-0.mt-4(aria-labelledby='alertsDropdown')
+            h6.dropdown-header
+              | Alerts Center
+            a.dropdown-item.d-flex.align-items-center(href='#')
+              .me-3
+                .icon-circle.bg-primary
+                  i.bx.bxs-file.text-white
+              div.smallfont
+                .smallfont.text-black-50 September 12, 2021
+                span.font-weight-bold A new monthly report is ready to download!
+            a.dropdown-item.d-flex.align-items-center(href='#')
+              .me-3
+                .icon-circle.bg-success
+                  i.bx.bx-rupee.text-white
+              div.smallfont
+                .smallfont.text-black-50 September 7, 2021
+                |                                         ₹2000 has been deposited into your account!
+            a.dropdown-item.d-flex.align-items-center(href='#')
+              .me-3
+                .icon-circle.bg-warning
+                  i.bx.bxs-error.text-white
+              div.smallfont
+                .smallfont.text-black-50 September 2, 2021
+                |                                         Spending Alert: We&apos;ve noticed unusually high spending for your account.
+            a.dropdown-item.text-center.smallfont.text-black-50(href='#') Show All Alerts
+        // Nav Item - Message
+        .nav-item.dropdown.no-arrow.mx-1
+          a#messageDropdown.nav-link.dropdown-toggle.position-relative(href='#' role='button' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+            i.bx.bxs-envelope
+              // Counter - Message
+            span.badge-counter.top-0.start-100.badge.bg-danger 9+
+          .dropdown-list.dropdown-menu.dropdown-menu-end.shadow-sm.border-0.mt-4(aria-labelledby='messageDropdown')
+            h6.dropdown-header
+              | Message Center
+            a.dropdown-item.d-flex.align-items-center(href='#')
+              .dropdown-list-image.me-3.position-relative
+                img.rounded-circle(src='/static/img/undraw_profile_1.svg' alt='...')
+                .status-indicator.bg-success
+              .font-weight-bold
+                .text-truncate
+                  | Hi there! I am wondering if you can help me with a
+                  | problem I&apos;ve been having.
+                .smallfont.text-black-50 Emily Fowler &middot; 58m
+            a.dropdown-item.d-flex.align-items-center(href='#')
+              .dropdown-list-image.me-3.position-relative
+                img.rounded-circle(src='/static/img/undraw_profile_2.svg' alt='...')
+                .status-indicator
+              div
+                .text-truncate
+                  | I have the photos that you ordered last month, how
+                  | would you like them sent to you?
+                .smallfont.text-black-50 Jae Chun &middot; 1d
+            a.dropdown-item.d-flex.align-items-center(href='#')
+              .dropdown-list-image.me-3.position-relative
+                img.rounded-circle(src='/static/img/undraw_profile_3.svg' alt='...')
+                .status-indicator.bg-warning
+              div
+                .text-truncate
+                  | Last month&apos;s report looks great, I am very happy with
+                  | the progress so far, keep up the good work!
+                .smallfont.text-black-50 Morgan Alvarez &middot; 2d
+            a.dropdown-item.d-flex.align-items-center(href='#')
+              .dropdown-list-image.me-3.position-relative
+                img.rounded-circle(src='https://source.unsplash.com/Mv9hjnEUHR4/60x60' alt='...')
+                .status-indicator.bg-success
+              div
+                .text-truncate
+                  | Am I a good boy? The reason I ask is because someone
+                  | told me that people say this to all dogs, even if they aren&apos;t good...
+                .smallfont.text-black-50 Chicken the Dog &middot; 2w
+            a.dropdown-item.text-center.smallfont.text-black-50(href='#') Read More Messages
+        .topbar-divider.d-none.d-sm-block
+        // Divider
+        .topbar-divider.d-none.d-sm-block.me-4
+        // Nav Item - User Information
+        .dropdown
+          a#dropdownMenuLink.dropdown-toggle.unstyled-link.text-black-50(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false')
+            img.img-profile.rounded-circle(src='/static/img/undraw_profile.svg')
+            span.ms-2.d-none.d-lg-inline.smallfont Ayush Kumar
+            // Dropdown - User Information
+          .dropdown-menu.dropdown-menu-end.shadow-sm.border-0.mt-4(aria-labelledby='dropdownMenuLink')
+            a.dropdown-item.smallfont(href='#')
+              i.bx.bxs-user.me-2.text-black-50
+              |                                     My Profile
+            a.dropdown-item.smallfont(href='#')
+              i.bx.bxs-cog.me-2.text-black-50
+              |                                     Settings
+            .dropdown-divider
+            a.dropdown-item.smallfont(href='/logout')
+              i.bx.bx-log-in-circle.me-2.text-black-50
+              |                                     Logout
