@@ -23,5 +23,6 @@ function userLogout(req, res){
 
 module.exports = {
     login,
-    register
+    register,
+    forgetPassword
 }
