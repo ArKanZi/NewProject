@@ -282,7 +282,7 @@ nav{
 .bg-color{
   background-color: #f2f2f8;
 }
-.card{
+.authcard{
   border-radius: 25px;
 }
 .login-page{
@@ -324,4 +324,7 @@ nav{
   font-size: 25px;
   font-weight: 500;
   margin: 18px
+}
+.home-section .card{
+  border-radius: 15px;
 }

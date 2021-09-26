@@ -7,15 +7,12 @@ html
         link(rel='stylesheet', href='/static/css/sidebar.css')
         link(rel='stylesheet', href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css')
         link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i')
-        block styles
-        
+        block styles        
     body.bg-color
-
         .container.vh-100.d-md-flex.align-items-center.login-page    
-            .card.flex-fill.shadow-lg
+            .card.authcard.flex-fill.shadow-lg
                 .row.g-0        
                     block content
-
             script(src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js")
             script(src="/static/js/sidebar.js")
             block scripts
