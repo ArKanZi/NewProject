@@ -1,11 +1,12 @@
 
 /* Google Font Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Nunito" , sans-serif;
   
 }
 section .container-fluid{
@@ -165,13 +166,13 @@ nav{
   color: #11101D;
   font-weight: 400;
   outline: none;
-  width: 18rem;
+  width: 15rem;
   height: 38px;
   border: none;
   border-radius: 12px;
   background: #f2f2f8;
   padding: 0 0 0 1rem;
-  min-width: 18rem;
+  min-width: 15rem;
 }
 .navbar .container-fluid{
   padding: 0.5rem 1rem 0.5rem 2rem;
@@ -325,6 +326,41 @@ nav{
   font-weight: 500;
   margin: 18px
 }
+.home-section .categorycard{
+  border-radius: 15px;
+  height: 7rem;
+  background-color: #11101D;
+  border: none;
+}
+
+.home-section .categorycard p{
+  text-shadow: 0 0 2px #0003;
+}
+
+.home-section .col:nth-child(1) .categorycard{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home-section  .col:nth-child(2) .categorycard{
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home-section .col:nth-child(3) .categorycard{
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.home-section .col:nth-child(4) .categorycard{
+  background: #FFAFBD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, hsl(22, 100%, 76%), hsl(350, 100%, 78%));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, hsl(22, 100%, 76%), hsl(350, 100%, 78%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .home-section .card{
   border-radius: 15px;
+  /* width: 18rem; */
+  border: none;
+  /* flex: 0 0 18rem; */
 }

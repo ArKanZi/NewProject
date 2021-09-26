@@ -4,9 +4,52 @@ block content
   //=JSON.stringify(user)
   // test
   div
-    h4 Categories
-    .card(style='width: 18rem;')
-      img.card-img-top(src='...' alt='...')
-      .card-body
-        p.card-text
-          | Some quick example text to build on the card title and make up the bulk of the card's content.
+    h4.mb-3(style="font-weight:700") Categories
+    .container-fluid.p-0.w-100
+        .row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-lg-4.g-3
+          .col
+            .card.categorycard.flex-row.align-items-center.justify-content-between.p-4.shadow 
+              p.card-text.text-light.m-0.text-nowrap.fw-bold All Products
+              i.bx.bxs-shopping-bags.bx-lg.text-light
+          .col
+            .card.categorycard.flex-row.align-items-center.justify-content-between.p-4.shadow
+              p.card-text.text-light.m-0.fw-bold Groceries
+              i.bx.bxs-basket.bx-lg.text-light
+          .col
+            .card.categorycard.flex-row.align-items-center.justify-content-between.p-4.shadow
+              p.card-text.text-light.m-0.fw-bold Electronics
+              i.bx.bx-devices.bx-lg.text-light
+          .col
+            .card.categorycard.flex-row.align-items-center.justify-content-between.p-4.shadow
+              p.card-text.text-light.m-0.fw-bold Fashion
+              i.bx.bx-closet.bx-lg.text-light
+    h4.mb-3.mt-5(style="font-weight:700") Products
+    .container-fluid.p-0.w-100
+      .row.row-cols-1.row-cols-sm-2.row-cols-md-3.row-cols-lg-4.g-3
+        .col
+          .card.h-100.p-3.shadow
+            img.card-img-top(src='...' alt='...')
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+        .col
+          .card.h-100.p-3.shadow
+            img.card-img-top(src='...' alt='...')
+            .card-body
+              h5.card-title Card title
+              p.card-text This is a short card.
+        .col
+          .card.h-100.p-3.shadow
+            img.card-img-top(src='...' alt='...')
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | This is a longer card with supporting text below as a natural lead-in to additional content.
+        .col
+          .card.h-100.p-3.shadow
+            img.card-img-top(src='...' alt='...')
+            .card-body
+              h5.card-title Card title
+              p.card-text
+                | This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
