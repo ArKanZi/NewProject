@@ -358,9 +358,24 @@ nav{
   background: linear-gradient(to left, hsl(22, 100%, 76%), hsl(350, 100%, 78%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.home-section .card{
+.home-section .productcard{
   border-radius: 15px;
-  /* width: 18rem; */
+  width: 18rem;
+  height: 18rem !important;
   border: none;
-  /* flex: 0 0 18rem; */
+  margin-bottom: 2rem;
+  position: relative;
+}
+.home-section .productcard img{
+  width: auto;
+  height: 9rem;
+}
+.home-section .productcard i{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1rem 1rem 0 0;
+}
+.home-section .productcard i:hover::before{
+  color: #11101D;
 }

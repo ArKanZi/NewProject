@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil3 {fill:#212121}
+    .fil2 {fill:#CBD2D6}
+    .fil1 {fill:#ECEEEF}
+   ]]>
+  </style></defs><g id="Layer_x0020_1"><rect class="fil0" height="512" width="512" y="0.000377953"/><path class="fil1" d="M307.642 414.586l0 0 -7.01065 -54.0541 -89.2623 0 -7.12819 54.9468c-3.38154,9.15742 -13.674,18.6406 -13.674,20.9934l0 2.92347c0,2.42343 2.4378,4.39181 5.44895,4.39181l119.969 0c3.00851,0 5.44895,-1.96838 5.44895,-4.39181l0 -2.92384c0,-2.42608 -10.783,-12.4562 -13.7911,-21.8854l-0.000755906 -0.000377953z"/><polygon class="fil2" points="211.369,360.532 209.543,374.607 302.457,374.607 300.631,360.532 "/><path class="fil1" d="M477.839 355.222c0,5.72561 -4.68435,10.4084 -10.4088,10.4084l-422.862 0c-5.72561,0 -10.4088,-4.68284 -10.4088,-10.4084l0.000377953 -276.6c0,-5.72448 4.68284,-10.4084 10.4084,-10.4084l422.862 -0.000377953c5.72448,0 10.4084,4.68435 10.4084,10.4088l0.000377953 276.6z"/><polygon class="fil3" points="460.101,343.447 51.899,343.447 51.899,90.3984 460.101,90.3984 "/></g></svg>
