@@ -12,11 +12,11 @@ html
         #wrapper
             //Sidebar
             include components/sidebar.pug
-            section.home-section
-                #content 
+            section.home-section.position-relative 
+                #content.position-relative.w-100 
                     // Navbar
                     include components/header.pug
-                    .container-fluid
+                    .container-fluid.main-section
                         block content
 
         script(src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js")
